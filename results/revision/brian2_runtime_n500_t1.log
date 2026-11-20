@@ -1,0 +1,12 @@
+[1/10] brian2         n=500   narma10       random       rep=2 -> 1.0867s
+[2/10] brian2         n=500   narma10       random       rep=8 -> 1.1162s
+[3/10] brian2         n=500   narma10       random       rep=3 -> 1.0975s
+[4/10] brian2         n=500   narma10       random       rep=5 -> 1.0977s
+[5/10] brian2         n=500   narma10       random       rep=6 -> 1.1114s
+[6/10] brian2         n=500   narma10       random       rep=4 -> 1.1098s
+[7/10] brian2         n=500   narma10       random       rep=9 -> 1.1435s
+[8/10] brian2         n=500   narma10       random       rep=0 -> 1.1109s
+[9/10] brian2         n=500   narma10       random       rep=1 -> 1.1814s
+[10/10] brian2         n=500   narma10       random       rep=7 -> 1.1696s
+
+wrote ~/notebook/research/spires_icrc_2026/results/revision/brian2_runtime_n500_t1.jsonl

@@ -1,0 +1,18 @@
+# compiled runners (built by `make`)
+src/bench/*
+!src/bench/*.c
+!src/bench/*.py
+!src/bench/*.jl
+!src/bench/*.sh
+results/.verify_exact_harness
+__pycache__/
+
+# third-party corpora and caches (see README)
+data/shd/
+data/shd.*
+data/fsdd/
+data/fsdd.*
+data/weight_cache/
+
+# generated tables
+tables/

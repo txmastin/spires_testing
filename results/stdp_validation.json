@@ -1,0 +1,204 @@
+{
+  "traces": {
+    "worst_err_x_pre_e": 1.11e-16,
+    "worst_err_x_post_e": 2.22e-16,
+    "worst_err_x_pre_i": 1.11e-16,
+    "none_is_inert": true
+  },
+  "window": {
+    "tau_plus_set": 17.0,
+    "tau_minus_set": 34.0,
+    "tau_plus_recovered": 17.0,
+    "tau_minus_recovered": 34.0,
+    "inhib_symmetry_worst": 5.551e-17,
+    "alpha": 0.8,
+    "zero_crossing_pred": 4.46,
+    "causal": true,
+    "monotonic": true,
+    "potentiation_w_low": 0.004998,
+    "potentiation_w_high": 0.0005553
+  },
+  "smoke": {
+    "seeds": 10,
+    "changed_pct_mean": 90.23,
+    "changed_pct_sd": 4.151318398345813,
+    "sign_flips_total": 0,
+    "out_of_bounds_total": 0,
+    "per_synapse_refused": true,
+    "psc_heterogeneous_refused": true
+  },
+  "homeostasis": {
+    "rows": [
+      {
+        "rho_0": 0.02,
+        "predicted": 0.02051,
+        "seeds": 10,
+        "measured": 0.018936,
+        "measured_sd": 0.0012269130187407562,
+        "ratio": 0.9234,
+        "ratio_sd": 0.05963816824074254,
+        "mean_w_inh": 0.76702,
+        "mean_w_inh_sd": 0.12538086687281186,
+        "pct_at_wmax": 0.0,
+        "pct_at_wmax_sd": 0.0
+      },
+      {
+        "rho_0": 0.05,
+        "predicted": 0.05127,
+        "seeds": 10,
+        "measured": 0.037182,
+        "measured_sd": 0.0018185390962100446,
+        "ratio": 0.7253,
+        "ratio_sd": 0.03536806469118717,
+        "mean_w_inh": 0.35771,
+        "mean_w_inh_sd": 0.04004573635232594,
+        "pct_at_wmax": 0.0,
+        "pct_at_wmax_sd": 0.0
+      },
+      {
+        "rho_0": 0.1,
+        "predicted": 0.10254,
+        "seeds": 10,
+        "measured": 0.08052200000000001,
+        "measured_sd": 0.0036716263426443594,
+        "ratio": 0.7853,
+        "ratio_sd": 0.03596618782504849,
+        "mean_w_inh": 0.20133,
+        "mean_w_inh_sd": 0.01726962973288978,
+        "pct_at_wmax": 0.0,
+        "pct_at_wmax_sd": 0.0
+      },
+      {
+        "rho_0": 0.15,
+        "predicted": 0.15381,
+        "seeds": 10,
+        "measured": 0.130821,
+        "measured_sd": 0.005000912027931616,
+        "ratio": 0.8507,
+        "ratio_sd": 0.03253049851037231,
+        "mean_w_inh": 0.15638999999999997,
+        "mean_w_inh_sd": 0.027242346529703428,
+        "pct_at_wmax": 0.0,
+        "pct_at_wmax_sd": 0.0
+      }
+    ],
+    "seeds": 10,
+    "baseline_rate": 0.32957499999999995,
+    "baseline_rate_sd": 0.028295454385623302,
+    "ratio_min": 0.7253,
+    "ratio_max": 0.9234,
+    "worst_dev_pct": 27.470000000000006
+  },
+  "nest": {
+    "lags_compared": 120,
+    "worst_abs_diff": 6.00006155870858e-14,
+    "delay_offset_steps": 1
+  },
+  "robustness": {
+    "istdp_rho0.35": {
+      "gains": [
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0,
+        20.0,
+        50.0
+      ],
+      "nrmse_median": [
+        1.1410675000000001,
+        1.1680805,
+        1.1544195,
+        0.819479,
+        0.7926585,
+        0.8191219999999999,
+        0.815027,
+        0.836692
+      ],
+      "rate_median": [
+        0.32799500000000004,
+        0.39101,
+        0.370975,
+        0.314855,
+        0.2952,
+        0.294875,
+        0.29666000000000003,
+        0.29962
+      ],
+      "best": 0.7926585,
+      "worst_gain_ge_0p5": 1.1680805,
+      "spread": 0.37542200000000003
+    },
+    "istdp_rho0.50": {
+      "gains": [
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0,
+        20.0,
+        50.0
+      ],
+      "nrmse_median": [
+        2.0359795,
+        1.4092605,
+        1.1513935000000002,
+        1.0248110000000001,
+        0.7613065,
+        0.7959229999999999,
+        0.7857514999999999,
+        0.8034345
+      ],
+      "rate_median": [
+        0.485465,
+        0.49177,
+        0.49064,
+        0.493895,
+        0.424245,
+        0.41206,
+        0.411545,
+        0.42046
+      ],
+      "best": 0.7613065,
+      "worst_gain_ge_0p5": 1.4092605,
+      "spread": 0.647954
+    },
+    "static": {
+      "gains": [
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0,
+        20.0,
+        50.0
+      ],
+      "nrmse_median": [
+        1.096954,
+        0.9516819999999999,
+        0.8197159999999999,
+        0.7482219999999999,
+        0.7295495,
+        0.771739,
+        1.434512,
+        4.283513
+      ],
+      "rate_median": [
+        0.185835,
+        0.307855,
+        0.39193500000000003,
+        0.51881,
+        0.682705,
+        0.7365649999999999,
+        0.76319,
+        0.78011
+      ],
+      "best": 0.7295495,
+      "worst_gain_ge_0p5": 4.283513,
+      "spread": 3.5539635
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "ANNarchy|fsdd": {
+    "gain": 3.0,
+    "leak": 0.3,
+    "sr": 1.2,
+    "wscale": 1.0
+  },
+  "ANNarchy|mackey_glass": {
+    "gain": 20.0,
+    "leak": 0.1,
+    "ridge": 0.01,
+    "wscale": 0.5
+  },
+  "ANNarchy|narma10": {
+    "gain": 20.0,
+    "leak": 0.1,
+    "ridge": 100.0,
+    "wscale": 2.0
+  },
+  "ANNarchy|shd": {
+    "gain": 0.3,
+    "leak": 0.3,
+    "sr": 1.2,
+    "wscale": 1.0
+  },
+  "NEST|fsdd": {
+    "gain": 3.0,
+    "leak": 0.3,
+    "sr": 1.2,
+    "wscale": 1.0
+  },
+  "NEST|mackey_glass": {
+    "gain": 1.0,
+    "leak": 0.05,
+    "ridge": 100.0,
+    "wscale": 2.0
+  },
+  "NEST|narma10": {
+    "gain": 20.0,
+    "leak": 0.05,
+    "ridge": 10000.0,
+    "wscale": 0.5
+  },
+  "NEST|shd": {
+    "gain": 0.3,
+    "leak": 0.3,
+    "sr": 1.2,
+    "wscale": 1.0
+  },
+  "RC.jl|fsdd": {
+    "gain": 0.5,
+    "leak": 0.3,
+    "ridge": 1e-06,
+    "sr": 1.2
+  },
+  "RC.jl|mackey_glass": {
+    "gain": 1.0,
+    "leak": 1.0,
+    "ridge": 1e-08,
+    "sr": 1.2
+  },
+  "RC.jl|narma10": {
+    "gain": 0.5,
+    "leak": 1.0,
+    "ridge": 1e-06,
+    "sr": 0.9
+  },
+  "RC.jl|shd": {
+    "gain": 0.01,
+    "leak": 0.5,
+    "ridge": 1e-06,
+    "sr": 1.2
+  },
+  "SPIRES|fsdd": {
+    "ei": 0.5,
+    "gain": 3.0,
+    "leak": 0.1,
+    "sr": 1.2,
+    "vth": 1.0
+  },
+  "SPIRES|mackey_glass": {
+    "gain": 1.0,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "sr": 0.5,
+    "vth": 1.0
+  },
+  "SPIRES|narma10": {
+    "gain": 5.0,
+    "leak": 0.05,
+    "ridge": 100.0,
+    "sr": 1.2,
+    "vth": 1.0
+  },
+  "SPIRES|shd": {
+    "ei": 0.5,
+    "gain": 0.01,
+    "leak": 0.1,
+    "sr": 1.2,
+    "vth": 1.0
+  },
+  "brian2|fsdd": {
+    "gain": 3.0,
+    "leak": 0.3,
+    "sr": 1.2,
+    "wscale": 1.0
+  },
+  "brian2|mackey_glass": {
+    "gain": 20.0,
+    "leak": 0.1,
+    "ridge": 100.0,
+    "wscale": 2.0
+  },
+  "brian2|narma10": {
+    "gain": 20.0,
+    "leak": 0.1,
+    "ridge": 100.0,
+    "wscale": 0.5
+  },
+  "brian2|shd": {
+    "gain": 0.3,
+    "leak": 0.3,
+    "sr": 1.2,
+    "wscale": 1.0
+  },
+  "norse|fsdd": {
+    "gain": 1.0,
+    "leak": 0.1,
+    "sr": 1.2,
+    "vth": 1.0
+  },
+  "norse|mackey_glass": {
+    "gain": 1.0,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "sr": 1.2,
+    "vth": 0.5
+  },
+  "norse|narma10": {
+    "gain": 5.0,
+    "leak": 0.5,
+    "ridge": 100.0,
+    "sr": 1.2,
+    "vth": 1.0
+  },
+  "norse|shd": {
+    "gain": 0.01,
+    "leak": 0.3,
+    "sr": 1.2,
+    "vth": 1.0
+  },
+  "pytorch-esn|fsdd": {
+    "gain": 0.5,
+    "leak": 0.3,
+    "ridge": 1e-06,
+    "sr": 1.2
+  },
+  "pytorch-esn|mackey_glass": {
+    "gain": 0.1,
+    "leak": 1.0,
+    "ridge": 1e-08,
+    "sr": 0.5
+  },
+  "pytorch-esn|narma10": {
+    "gain": 0.5,
+    "leak": 1.0,
+    "ridge": 0.01,
+    "sr": 1.2
+  },
+  "pytorch-esn|shd": {
+    "gain": 0.01,
+    "leak": 0.3,
+    "ridge": 1e-06,
+    "sr": 1.2
+  },
+  "reservoirpy|fsdd": {
+    "gain": 0.5,
+    "leak": 0.3,
+    "ridge": 1e-06,
+    "sr": 1.2
+  },
+  "reservoirpy|mackey_glass": {
+    "gain": 1.0,
+    "leak": 1.0,
+    "ridge": 1e-08,
+    "sr": 1.2
+  },
+  "reservoirpy|narma10": {
+    "gain": 0.5,
+    "leak": 1.0,
+    "ridge": 1e-08,
+    "sr": 0.9
+  },
+  "reservoirpy|shd": {
+    "gain": 0.1,
+    "leak": 0.3,
+    "ridge": 1e-06,
+    "sr": 1.2
+  },
+  "rockpool|fsdd": {
+    "alpha": 0.95,
+    "beta": 0.3,
+    "gain": 3.0,
+    "vth": 1.0,
+    "wscale": 1.0
+  },
+  "rockpool|mackey_glass": {
+    "alpha": 0.8,
+    "beta": 0.5,
+    "gain": 5.0,
+    "ridge": 0.01,
+    "vth": 1.0,
+    "wscale": 1.0
+  },
+  "rockpool|narma10": {
+    "alpha": 0.8,
+    "beta": 0.5,
+    "gain": 5.0,
+    "ridge": 100.0,
+    "vth": 1.0,
+    "wscale": 1.0
+  },
+  "rockpool|shd": {
+    "alpha": 0.95,
+    "beta": 0.5,
+    "gain": 0.01,
+    "vth": 1.0,
+    "wscale": 1.0
+  },
+  "snnTorch|fsdd": {
+    "gain": 3.0,
+    "leak": 0.1,
+    "sr": 1.2,
+    "vth": 1.0
+  },
+  "snnTorch|mackey_glass": {
+    "gain": 1.0,
+    "leak": 0.05,
+    "ridge": 1.0,
+    "sr": 1.2,
+    "vth": 0.5
+  },
+  "snnTorch|narma10": {
+    "gain": 5.0,
+    "leak": 0.2,
+    "ridge": 100.0,
+    "sr": 1.2,
+    "vth": 0.5
+  },
+  "snnTorch|shd": {
+    "gain": 0.01,
+    "leak": 0.1,
+    "sr": 1.2,
+    "vth": 1.0
+  }
+}

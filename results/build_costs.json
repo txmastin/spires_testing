@@ -1,0 +1,32 @@
+{
+  "note": "per-implementation build cost, seconds; see module docstring",
+  "reps": 6,
+  "frameworks": {
+    "SPIRES": {
+      "build_s": 0.1419941750355065,
+      "all_s": [
+        0.14840566797647625,
+        0.14571008598431945,
+        0.14423635404091328,
+        0.14407003403175622,
+        0.1432265869807452,
+        0.1419941750355065
+      ],
+      "what": "clang -O2 -fopenmp of the LSM program, linked against the prebuilt libspires.a",
+      "command": "clang -O2 -fopenmp -I~/programming/projects/spiking-reservoir/spires/include -I~/programming/projects/spiking-reservoir/spires/src ~/notebook/research/spires_icrc_2026/src/bench/run_spires.c -o <binary> ~/programming/projects/spiking-reservoir/spires/lib/libspires.a -lopenblas -lm"
+    }
+  },
+  "zero_by_construction": [
+    "reservoirpy",
+    "pytorch-esn",
+    "snnTorch",
+    "norse",
+    "rockpool",
+    "NEST",
+    "ReservoirComputing.jl"
+  ],
+  "measured_per_cell_as_codegen_s": [
+    "brian2",
+    "ANNarchy"
+  ]
+}

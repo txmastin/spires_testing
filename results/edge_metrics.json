@@ -1,0 +1,81 @@
+{
+  "footprint": {
+    "SPIRES": {
+      "bytes": 16618362,
+      "lib_only_bytes": 466530,
+      "detail": "libspires.a + openblas/lapacke",
+      "runtime": "none (C, static link)",
+      "note": "dominated by OpenBLAS; libspires.a alone is 0.47 MB, and an embedded build could link a reference or size-optimised BLAS"
+    },
+    "reservoirpy": {
+      "bytes": 150146951,
+      "detail": "reservoirpy + scipy + numpy",
+      "runtime": "CPython"
+    },
+    "pytorch-esn": {
+      "bytes": 794577696,
+      "detail": "torchesn + torch + numpy",
+      "runtime": "CPython"
+    },
+    "snnTorch": {
+      "bytes": 795531298,
+      "detail": "snntorch + torch + numpy",
+      "runtime": "CPython"
+    },
+    "norse": {
+      "bytes": 796264407,
+      "detail": "norse + torch + numpy",
+      "runtime": "CPython"
+    },
+    "rockpool": {
+      "bytes": 799678086,
+      "detail": "rockpool + torch + numpy",
+      "runtime": "CPython"
+    },
+    "brian2": {
+      "bytes": 160689580,
+      "detail": "brian2 + numpy + scipy + cython",
+      "runtime": "CPython"
+    },
+    "NEST": {
+      "bytes": 202923903,
+      "detail": "nest + numpy + scipy",
+      "runtime": "CPython"
+    },
+    "ANNarchy": {
+      "bytes": 156008364,
+      "detail": "ANNarchy + numpy + scipy + nanobind",
+      "runtime": "CPython"
+    },
+    "RC.jl": {
+      "bytes": 30250167,
+      "detail": "julia runtime + depot packages",
+      "runtime": "Julia + JIT"
+    }
+  },
+  "cold_start_s": {
+    "_python_baseline": 0.01125227304873988,
+    "reservoirpy": 0.8479567024623975,
+    "pytorch-esn": 1.3820635204901919,
+    "snnTorch": 1.3861116085317917,
+    "norse": 1.8831261944724247,
+    "rockpool": 3.2920798910199665,
+    "brian2": 1.3089541445369832,
+    "NEST": 0.4226936984923668,
+    "ANNarchy": 1.026032373541966,
+    "SPIRES": 0.00849217304494232,
+    "RC.jl": 0.5901980199851096
+  },
+  "peak_rss_bytes": {
+    "SPIRES": 44871680,
+    "reservoirpy": 140935168,
+    "pytorch-esn": 278405120,
+    "snnTorch": 276500480,
+    "norse": 326688768,
+    "rockpool": 440791040,
+    "brian2": 1135865856,
+    "NEST": 4727353344,
+    "ANNarchy": 2891296768,
+    "RC.jl": 517693440
+  }
+}

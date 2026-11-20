@@ -1,0 +1,56 @@
+{
+  "narma10": {
+    "SPIRES": {
+      "rate_hz": 705.3742,
+      "frac_active": 0.9567
+    },
+    "snnTorch": {
+      "rate_hz": 340.8541666666667,
+      "frac_active": 0.6233333333333333
+    },
+    "norse": {
+      "rate_hz": 348.3675,
+      "frac_active": 0.5833333333333334
+    },
+    "rockpool": {
+      "rate_hz": 420.6091666666667,
+      "frac_active": 0.59
+    },
+    "brian2": {
+      "rate_hz": 70.76
+    },
+    "NEST": {
+      "rate_hz": 36.03
+    },
+    "ANNarchy": {
+      "rate_hz": 76.71
+    }
+  },
+  "mackey_glass": {
+    "SPIRES": {
+      "rate_hz": 226.1008,
+      "frac_active": 0.6233
+    },
+    "snnTorch": {
+      "rate_hz": 371.265,
+      "frac_active": 0.6033333333333334
+    },
+    "norse": {
+      "rate_hz": 422.31083333333333,
+      "frac_active": 0.67
+    },
+    "rockpool": {
+      "rate_hz": 1991.7508333333333,
+      "frac_active": 0.6766666666666666
+    },
+    "brian2": {
+      "rate_hz": 251.87
+    },
+    "NEST": {
+      "rate_hz": 24.69
+    },
+    "ANNarchy": {
+      "rate_hz": 283.81
+    }
+  }
+}
